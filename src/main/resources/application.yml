@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: redis-test-project
+  redis:
+    host: ${HOST:localhost}
+    port: ${PORT:6379}
+  cache:
+    type: redis
+    cache_names: test
